@@ -1,0 +1,50 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+.wrapper{
+  display: inline-block;
+}
+.vertical-line{
+  width: 1.5px;
+  background-color: black;
+  height: 100%;
+  float: left;
+}
+.midbutton{
+  margin:0 auto;
+  display: block;
+}
+/* -------------- Login on the right ---------------- */
+  #loginbox{
+    width:48%;
+    margin:50px 10px 50px 0;
+
+    .forgotpw{
+      float:right;
+      font-size: 80%;
+      position: relative;
+      top:-10px
+    }
+
+    .loginbody{
+      padding-top:30px;
+
+      #loginform{
+        .input{
+          margin-bottom: 25px;
+        }
+      }
+
+      .loginbuttons{
+        margin-top:10px;
+      }
+    }
+
+  }
+
+/* -------------- Registration on the left ---------------- */
+#signupbox{
+  width:48%;
+  margin:50px 0px 50px 10px;
+}
