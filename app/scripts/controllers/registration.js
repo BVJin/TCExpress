@@ -14,5 +14,5 @@ angular.module('expressWuApp')
 })
 
 .controller('regCtrl', function($scope){
-  console.log('aa');
+  
 });

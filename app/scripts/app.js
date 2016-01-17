@@ -31,5 +31,5 @@ angular
         templateUrl: 'views/main.html'
       });
       $urlRouterProvider.otherwise("/home");
-    
+
   });

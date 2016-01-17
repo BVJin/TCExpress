@@ -14,5 +14,5 @@ angular.module('expressWuApp')
 })
 
 .controller('homeCtrl', function($scope){
-  console.log('aa');
+  
 });
