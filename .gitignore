@@ -1,5 +1,15 @@
-/node_modules
+# project
 /dist
+
+# temp
 /.tmp
+
+# sass
 /.sass-cache
+
+# lib
+/node_modules
 /bower_components
+
+# WebStorm
+.idea
