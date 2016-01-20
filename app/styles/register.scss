@@ -1,0 +1,21 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+.vertical-line{
+  width: 1.5px;
+  background-color: black;
+  height: 100%;
+  float: left;
+}
+.midbutton{
+  margin:0 auto;
+  display: block;
+}
+
+/* -------------- Registration on the left ---------------- */
+#signupbox{
+  //width:48%;
+  //margin:50px 0px 50px 10px;
+}

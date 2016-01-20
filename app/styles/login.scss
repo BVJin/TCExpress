@@ -1,0 +1,27 @@
+// login
+#loginbox{
+  //width:48%;
+  //margin:50px 10px 50px 0;
+
+  .forgotpw{
+    float:right;
+    font-size: 80%;
+    position: relative;
+    top:-10px
+  }
+
+  .loginbody{
+    padding-top:30px;
+
+    #loginform{
+      .input{
+        margin-bottom: 25px;
+      }
+    }
+
+    .loginbuttons{
+      margin-top:10px;
+    }
+  }
+
+}
